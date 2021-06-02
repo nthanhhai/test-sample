@@ -1,1 +1,1 @@
-# protractor-cucumber-sample# test-sample
+# test-sample
