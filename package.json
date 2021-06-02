@@ -1,0 +1,35 @@
+{
+  "name": "protractor-cucumber-sample",
+  "version": "1.0.0",
+  "description": "Sample of automation framework developed based on Protractor and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test-browserstack": "cross-env protractor conf/conf.browserstack.js",
+    "test-local": "cross-env protractor conf/conf.local.js"
+  },
+  "author": "Hai Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "cucumber": "^4.2.1",
+    "cucumber-html-reporter": "^4.0.5",
+    "cucumber-junit": "^1.7.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-protractor": "^1.41.1",
+    "protractor-cucumber-framework": "^6.2.1"
+  },
+  "dependencies": {
+    "browserstack-local": "^1.4.8",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "compare-pdf": "^1.1.4",
+    "dotenv": "^8.2.0",
+    "download-file": "^0.1.5",
+    "downloads-folder": "^1.0.4",
+    "file-name": "^0.1.0",
+    "junit-merge": "^2.0.0",
+    "mail-notifier": "^0.5.0",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  }
+}
