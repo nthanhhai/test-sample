@@ -5,6 +5,7 @@ The tests were developed using
 - Protractor
 - Cucumber
 - Selenium
+- JavaScript
 
 ## Structure
 ### feature_files
